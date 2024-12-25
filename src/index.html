@@ -8,13 +8,13 @@
 </head>
 
 <body>
-    <header class="text-white">
+    <header class="text-white text-center lg:text-start">
         <nav class="flex justify-around items-center">
             <div>
                 <img src="./img/Group 19 2.png" alt="">
             </div>
             <aside>
-                <ul class="text-xl flex gap-[25px]">
+                <ul class="text-xl hidden lg:flex gap-[25px]">
                     <li>Главная</li>
                     <li>Про гида</li>
                     <li>Программа тура</li>
@@ -25,10 +25,10 @@
             </aside>
             <button class="bg-[#1A3E3E] rounded-lg w-[150px] h-[50px]">Консультация</button>
         </nav>
-        <section class="mt-[90px] ml-[30px]">
+        <section class="mt-[90px] lg:ml-[30px]">
             <p class="text-4xl font-bold">Насладись прогулкой в горах <br>
                 с командой единомышленников</p>
-            <aside class="w-[1200px] p-[100px] bg-gray-500 rounded-lg flex justify-evenly mt-[50px] ">
+            <aside class="lg:w-[1200px] p-[100px] bg-gray-500 rounded-lg hidden lg:flex justify-evenly mt-[50px] ">
                 <div>
                     <input class="w-[200px] p-[20px]  bg-gray-300 h-[50px] border-2 rounded-lg"
                         placeholder="Локация для тура" type="text">
@@ -49,12 +49,12 @@
         </section>
     </header>
     <main>
-        <section class="flex items-center justify-around">
+        <section class="block lg:flex items-center justify-around">
             <aside class="relative top-20">
-                <img src="./img/Rectangle 5 (1).png" alt="">
-                <img class="relative -top-[200px] ml-[70px]" src="./img/Rectangle 4 (1).png" alt="">
+                <img class="ml-14 lg:ml-0" src="./img/Rectangle 5 (1).png" alt="">
+                <img class="relative -top-[200px] hidden lg:block ml-[70px]" src="./img/Rectangle 4 (1).png" alt="">
             </aside>
-            <aside>
+            <aside class="mt-20 text-center lg:text-start lg:mt-0">
                 <p class="text-xl text-[#F2BE22]">о нашем походе</p>
                 <p class="text-3xl mt-3">Исследуйте все горные массивы <br> мира вместе с нами</p>
                 <p class="text-xl text-gray-500 mt-3">Его корни уходят в один фрагмент классической латыни 45 года <br>
@@ -64,7 +64,7 @@
                 <button class="text-white rounded-lg mt-8 bg-[#1A3E3E] w-[200px] h-[50px]">Программа тура</button>
             </aside>
         </section>
-        <section class="flex justify-around">
+        <section class="block text-center lg:text-start lg:flex justify-around">
             <aside>
                 <p class="text-xl text-[#F2BE22]">наше предложение</p>
                 <p class="text-2xl">Лучшие программы для тебя</p>
@@ -105,20 +105,20 @@
                     </div>
                 </div>
             </aside>
-            <aside>
-                <div class="flex gap-[20px]">
+            <aside class="ml-20 mt-5 lg:mt-0 lg:ml-0">
+                <div class="block lg:flex gap-[20px]">
                     <img src="./img/Rectangle 8.png" alt="">
-                    <img src="./img/Rectangle 9.png" alt="">
+                    <img class="mt-5 lg:mt-0" src="./img/Rectangle 9.png" alt="">
                 </div>
-                <div class="flex gap-[20px] mt-[20px]">
+                <div class="block lg:flex gap-[20px] mt-[20px]">
                     <img src="./img/Rectangle 10 (2).png" alt="">
-                    <img src="./img/Rectangle 11 (3).png" alt="">
+                    <img class="mt-5 lg:mt-0" src="./img/Rectangle 11 (3).png" alt="">
                 </div>
             </aside>
         </section>
         <p class="text-xl text-[#F2BE22] text-center mt-[100px]">по версии отдыхающих</p>
         <p class="text-2xl text-center">Популярные направления</p>
-        <section class="flex justify-around mt-20">
+        <section class="block ml-10 text-center lg:text-start lg:ml-0 lg:flex justify-around mt-20">
             <aside class="teiop">
                 <img class="ml-[320px] mt-[100px]" src="./img/Frame 30 (2).png" alt="">
                 <div
@@ -153,14 +153,14 @@
                 </div>
             </aside>
         </section>
-        <button class="w-[200px] h-[50px] bg-[#1A3E3E] text-white lg:ml-[520px] mt-10 rounded-lg">Рейтинг
+        <button class="w-[200px] h-[50px] bg-[#1A3E3E] text-white ml-[130px] lg:ml-[520px] mt-10 rounded-lg">Рейтинг
             направлений</button>
         <aside class="text-center text-2xl mt-20">
             <p class="text-yellow-300 font-bold">делимся впечатлениями</p>
             <p class="text-3xl font-bold mt-2">Блог о путешествиях</p>
         </aside>
-        <section class="flex justify-around mt-[30px]">
-            <div class="w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
+        <section class="block lg:flex justify-around mt-[30px]">
+            <div class="lg:w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
                 <aside>
                     <img src="./img/Rectangle 19.png" alt="">
                 </aside>
@@ -171,7 +171,7 @@
                         реализации соответствующих <br> условий активизации.</p>
                 </aside>
             </div>
-            <div class="w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
+            <div class="lg:w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
                 <aside>
                     <img src="./img/Rectangle 19 (1).png" alt="">
                 </aside>
@@ -183,8 +183,8 @@
                 </aside>
             </div>
         </section>
-        <section class="flex justify-around mt-[30px]">
-            <div class="w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
+        <section class="block lg:flex justify-around mt-[30px]">
+            <div class="lg:w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
                 <aside>
                     <img src="./img/Rectangle 19 (2).png" alt="">
                 </aside>
@@ -195,7 +195,7 @@
                         реализации соответствующих <br> условий активизации.</p>
                 </aside>
             </div>
-            <div class="w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
+            <div class="lg:w-[630px] justify-between p-[20px] gap-[10px] bg-white shadow-2xl flex rounded-lg">
                 <aside>
                     <img src="./img/Rectangle 19 (3).png" alt="">
                 </aside>
@@ -212,18 +212,19 @@
             <p class="text-3xl font-bold mt-2">Делимся впечатлениями</p>
         </aside>
         <section>
-            <aside class="flex mt-20 justify-center gap-[20px]">
+            <aside class="block lg:flex mt-20 justify-center gap-[20px]">
                 <img src="./img/Rectangle 20.png" alt="">
-                <img src="./img/Rectangle 21.png" alt="">
-                <img src="./img/Rectangle 22.png" alt="">
+                <img class="ml-24 mt-5 lg:mt-0 lg:ml-0" src="./img/Rectangle 21.png" alt="">
+                <img class="ml-24 mt-5 lg:mt-0 lg:ml-0" src="./img/Rectangle 22.png" alt="">
             </aside>
-            <aside class="flex justify-center mt-10 gap-[20px]">
-                <img src="./img/Rectangle 24.png" alt="">
-                <img src="./img/Rectangle 23.png" alt="">
-                <img src="./img/Rectangle 25.png" alt="">
+            <aside class="block lg:flex justify-center mt-10 gap-[20px]">
+                <img class="ml-24 mt-5 lg:mt-0 lg:ml-0" src="./img/Rectangle 24.png" alt="">
+                <img class="mt-5 lg:mt-0" src="./img/Rectangle 23.png" alt="">
+                <img class="ml-24 mt-5 lg:mt-0 lg:ml-0" src="./img/Rectangle 25.png" alt="">
             </aside>
         </section>
-        <section class="flex justify-around mt-20 bg-white p-10 w-[95%] ml-8 rounded-2xl shadow-2xl">
+        <section
+            class="block text-center lg:text-start lg:flex justify-around mt-20 bg-white p-10 lg:w-[95%] lg:ml-8 rounded-2xl shadow-2xl">
             <aside>
                 <p class="text-2xl text-[#f2Be22]">актуально</p>
                 <p class="text-3xl  mt-2">Получайте полезные <br> рассылки о путешествиях</p>
@@ -231,10 +232,54 @@
             <aside>
                 <p class="text-xl">Введите e-mail адрес</p>
                 <input class="p-3 mt-3 rounded-l-lg border-2 border-black" type="text" placeholder="name@domain.com">
-                <button class="bg-[#1A3e3e] text-white border-2 border-black p-3 rounded-r-lg">Подписаться на новости</button>
-                <p class="text-xl mt-2">подписываясь на новости, вы автоматически соглашаетесь с условиями <br> обработки персональных данных и
+                <button class="bg-[#1A3e3e] text-white border-2 border-black p-3 rounded-r-lg">Подписаться на
+                    новости</button>
+                <p class="text-xl mt-2">подписываясь на новости, вы автоматически соглашаетесь с условиями <br>
+                    обработки персональных данных и
                     правилами рекламных рассылок</p>
             </aside>
         </section>
+        <footer>
+            <section
+                class="lg:h-[500px] bg-[#1A3E3E] text-white block text-center lg:text-start lg:flex justify-around pt-[100px]">
+                <aside>
+                    <p class="text-2xl">Компания «РумТибет»</p>
+                    <p class="text-xl mt-3">Его корни уходят в один фрагмент классической латыни 45 года <br> н.э., то
+                        есть более двух тысячелетий назад. Ричард МакКлинток, <br> профессор латыни из колледжа
+                        Hampden-Sydney.</p>
+                    <div class="flex gap-7 mt-[100px]">
+                        <p class="text-xl">info@domain.com</p>
+                        <p class="text-xl">+7 (123) 456-78-90</p>
+                    </div>
+                    <img class="mt-[50px]" src="./img/Frame 26 (1).png" alt="">
+                </aside>
+                <aside>
+                    <p class="text-2xl">Наши услуги</p>
+                    <ul class="flex flex-col gap-5">
+                        <li>Прогулки в горы летом</li>
+                        <li>Зимние походы в горы</li>
+                        <li class="text-[#F2BE22]">Посещение храмов в горах</li>
+                        <li>Экстремальные виды туризма</li>
+                        <li>Походы в джунглях Амазонии</li>
+                        <li>Поездка в Африку</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <p class="text-2xl">Наши услуги</p>
+                    <ul class="flex flex-col gap-5">
+                        <li>Прогулки в горы летом</li>
+                        <li>Зимние походы в горы</li>
+                        <li class="text-[#F2BE22]">Посещение храмов в горах</li>
+                        <li>Экстремальные виды туризма</li>
+                        <li>Походы в джунглях Амазонии</li>
+                        <li>Поездка в Африку</li>
+                    </ul>
+                </aside>
+            </section>
+            <section class="h-[100px] bg-[#18121E] text-white hidden text-center lg:text-start lg:flex justify-around items-center">
+                <p class="text-2xl">ИП Константинопольский К.К., 2023</p>
+                <p class="text-2xl">Политика обработки персональных данных</p>
+            </section>
+        </footer>
     </main>
 </body>
