@@ -618,6 +618,14 @@ video {
   margin-top: 5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -652,6 +660,10 @@ video {
 
 .gap-\[25px\] {
   gap: 25px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .rounded-lg {
@@ -717,6 +729,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-black {
